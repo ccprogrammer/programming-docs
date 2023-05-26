@@ -152,4 +152,36 @@ Note: If you see failed to link then run brew link cocoapods
 If linking is getting failed then run
 
 > brew link --overwrite cocoapods
+  
+<br />
+  
+## Git Command
+  
+ #### # Cloning + remote
+1. Choose which folder to save the cloned repo
+2. Right click in the folder and choose git bash
+3. run command: `git clone (repo/remote url)`
+
+![image](https://user-images.githubusercontent.com/90954993/162659441-36a96723-517b-4413-a509-a54a4e139d7f.png)
+
+#### # Cloning repo will only clone the master and cannot choose spesific branch to clone but you can choose spesific branch with command
+```git checkout (branch name ~~without bracket~~)```
+
+#### # Forking Git Repository
+What is forking? it is copying other people repo with all the history to our repo it's just like making new repo but the repo is from other people repo. To do it just press 'Fork' in the repo you want to fork
+
+#### # Add new branch from Github Website
+If you want to add new branch from another branch, just select the branch first then add new branch
+![image](https://user-images.githubusercontent.com/90954993/162657746-d4e99e72-5b77-403b-98f5-fcdb13f18af1.png)
+
+
+#### # Adding new code update / push
+This will update your branch with your code that has been updated, it will only add new code or remove the code that you had remove in Text Editor not uploading all files but but only updated code/files
+```
+1. git add  (the . means adding all files that has changed)
+2. git commit -m 'Commit message explaining what change you do to the code
+3. git push 
+```
+  
+  <br />
 
