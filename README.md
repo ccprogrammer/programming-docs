@@ -110,7 +110,7 @@ note: for a simple config just use the same email with github
 
 note: for enter passphrase just empty it
 
-4. See ssh
+4. See ssh (must use git bash in windows or mac)
 > $ cat ~/.ssh/id_rsa.pub or $ pbcopy < ~/.ssh/id_rsa.pub
 
 5. Check ssh // tbh i forgot what is this command doing hehe
