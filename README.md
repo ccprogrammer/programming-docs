@@ -113,6 +113,9 @@ note: for enter passphrase just empty it
 4. See ssh (must use git bash in windows or mac)
 > $ cat ~/.ssh/id_rsa.pub or $ pbcopy < ~/.ssh/id_rsa.pub
 
+note: if it fail to locate ssh key just recreate it again and check in the directory */c/Users/USERNAME/.ssh(hidden file)/id_rsa.pub* if the key is created
+
+
 5. Check ssh // tbh i forgot what is this command doing hehe
 > $ dir .ssh
 
