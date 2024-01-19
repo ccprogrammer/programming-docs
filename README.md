@@ -140,10 +140,10 @@ note: if it fail to locate ssh key just recreate it again and check in the direc
 For zsh:
 
 1. Open Terminal
-2. Run: > nano ~/.zshrc
-3. Add: > export PATH="[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin" (DIR ex: /Users/user/flutter/bin)
+2. Run: nano ~/.zshrc
+3. Add: export PATH="[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin" (DIR ex: /Users/user/flutter/bin)
    *to get this path easily just drag flutter/bin to terminal and you will get the path
-5. Run: > source ~/.zshrc
+5. Run: source ~/.zshrc
 6. restart terminal
 7. Run: flutter doctor -v
 
