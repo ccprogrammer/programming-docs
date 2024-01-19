@@ -136,26 +136,17 @@ note: if it fail to locate ssh key just recreate it again and check in the direc
 3. choose update/upload to upload new settings
 
 ## SETTING FLUTTER PATH
-1. check what shell you are using with
-> echo $SHELL
-2. open the shell
->  If you’re using Bash, edit $HOME/.bash_profile or $HOME/.bashrc. If you’re using Z shell, edit $HOME/.zshrc
-3. add flutter/bin path to rc file 
-> export PATH="$PATH:$HOME/flutter/bin"
-4. run source
-> source $HOME/.<rc file>
 
-## Installing cocoapods
+For zsh:
 
-1. Run following command
-> brew cleanup -d -v 
-> brew install cocoapods 
-Note: If you see failed to link then run brew link cocoapods
+1. Open Terminal
+2. Run: > nano ~/.zshrc
+3. Add: > export PATH="[PATH_TO_FLUTTER_GIT_DIRECTORY]/flutter/bin" (DIR ex: /Users/user/flutter/bin)
+   *to get this path easily just drag flutter/bin to terminal and you will get the path
+5. Run: > source ~/.zshrc
+6. restart terminal
+7. Run: flutter doctor -v
 
-If linking is getting failed then run
-
-> brew link --overwrite cocoapods
-  
 <br />
   
 ## Git Command
